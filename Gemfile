@@ -8,7 +8,7 @@ gem "bower-rails"
 gem "browserify-rails"
 gem "carrierwave" # Great File upload
 gem 'devise' # Great Login
-# gem fog # Upload to cloud storage
+gem "fog" # Upload to cloud storage
 gem "font-awesome-sass"
 # gem fuzzily # Good simple indexing
 gem "mini_magick" # For Img uploads
