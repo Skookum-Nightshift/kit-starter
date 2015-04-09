@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users
   get 'pages/index'
+  get '/share', to: 'pages#share'
+  get '/donate', to: 'pages#donate'
 
   get '*any', to: 'pages#not_found'
   root 'pages#index'

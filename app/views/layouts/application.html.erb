@@ -8,9 +8,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <%= render 'layouts/nav' %>
   <%= render 'layouts/alert' %>
 
   <%= yield %>
+
+  <%= render 'layouts/footer' %>
 
   <%= javascript_include_tag 'application' %>
 </body>
