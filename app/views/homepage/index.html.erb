@@ -1,0 +1,50 @@
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron set-height">
+          <%= raw @org.call_to_action %>
+         <p><img src="" height="100" width="100"></p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="choose" role="button">Donate Today &raquo;</a>
+        </p>
+      </div>
+
+      <div class="jumbotron set-height">
+        <p>
+          <%= @org.description %>
+        </p>
+        <p>
+          When Gabriel is 18, he's going to be chronicly homeless.
+        </p>
+        <p>
+          <img src="" height="100" width="100">
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-7 set-height">
+          <div class="jumbotron set-height">
+            <p>
+              <img src="" height="50" width="200">
+            </p>
+            <p>
+              Kitstarter is a platform to provide daily essentials and furnishings for those placed in our housing to help solve chronic homelessness.
+            </p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="../../components/index.html#navbar" role="button">Donate Today &raquo;</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="jumbotron set-height">
+            <p>
+              <img src="" height="50" width="100">
+            </p>
+            <h3><%= @org.name %></h3>
+            <p>
+              <%= @org.lower_third %>
+            </p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="../../components/index.html#navbar" role="button">Visit  &raquo;</a>
+            </p>
+          </div>
+        </div>
+      </div>

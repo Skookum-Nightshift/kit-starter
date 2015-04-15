@@ -1,16 +1,22 @@
 Rails.application.routes.draw do
-  devise_for :users
-  get 'pages/index'
-  get '/share', to: 'pages#share'
-  get '/donate', to: 'pages#donate'
+  resources :kits
 
-  get '*any', to: 'pages#not_found'
-  root 'pages#index'
+  resources :items
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
+  resources :organizations
+
+  resources :homepage
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'homepage#index'
+  get 'choose' => 'homepage#choose'
+  get 'drop_off' => 'homepage#drop_off'
+  get 'donate' => 'homepage#donate'
+  get 'share' => 'homepage#share'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

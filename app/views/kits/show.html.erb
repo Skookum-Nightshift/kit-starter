@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Organization:</strong>
+  <%= @kit.organization_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @kit.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @kit.description %>
+</p>
+
+<p>
+  <strong>Total:</strong>
+  <%= @kit.total %>
+</p>
+
+<%= link_to 'Edit', edit_kit_path(@kit) %> |
+<%= link_to 'Back', kits_path %>

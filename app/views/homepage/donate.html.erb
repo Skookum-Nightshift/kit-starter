@@ -1,0 +1,35 @@
+      <div class="jumbotron set-height">
+         <p>
+          <img src="//www.fillmurray.com/g/400/250" />
+        </p>
+        <h2>Your Donation</h2>
+
+        <form class="bs-example bs-example-form" data-example-id="simple-input-groups">
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">$</span>
+            <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+          </div>
+        </form>
+
+      </div>
+
+
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+            60%
+          </div>
+        </div>
+
+<br>
+
+<div class="row">
+  <% @items = @org.kits.sample.items %>
+  <% @items.each do |item| %>
+    <div class="col-md-3">
+      <img src="//www.fillmurray.com/g/100/100">
+      <p><%= item.name %></p>
+      <p><%= item.price %></p>
+      <p><%= item.description %></p>
+    </div>
+  <% end %>
+</div>

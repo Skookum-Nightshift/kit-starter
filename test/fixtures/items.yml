@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  kit_id: 1
+  name: MyString
+  price: 9.99
+
+two:
+  kit_id: 1
+  name: MyString
+  price: 9.99
