@@ -1,28 +1,38 @@
-== README
+#**About**
+Kit Starter is an open source project brought to you by Team Kit Start. The goal of this project is to provide a plug-in that can be used as an agnostic platform to gather physical products or monetary donations for any non-profit organization.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#Installation
+###Installing Ruby on Rails
+Open up a command line prompt. On Mac OS X open Terminal.app, on Windows choose "Run" from your Start menu and type 'cmd.exe'. Any commands prefaced with a dollar sign $ should be run in the command line. Verify that you have a current version of Ruby installed:
 
-Things you may want to cover:
+A number of tools exist to help you quickly install Ruby and Ruby on Rails on your system. Windows users can use Rails Installer, while Mac OS X users can use Tokaido.
+$ ruby -v
+ruby 2.0.0p353
 
-* Ruby version
+If you don't have Ruby installed have a look at ruby-lang.org for possible ways to install Ruby on your platform.
 
-* System dependencies
+Many popular UNIX-like OSes ship with an acceptable version of SQLite3. Windows users and others can find installation instructions at the SQLite3 website. Verify that it is correctly installed and in your PATH:
+$ sqlite3 --version
 
-* Configuration
+The program should report its version.
 
-* Database creation
+To install Rails, use the gem install command provided by RubyGems:
+$ gem install rails
 
-* Database initialization
+To verify that you have everything installed correctly, you should be able to run the following:
+$ rails --version
 
-* How to run the test suite
+If it says something like "Rails 4.2.0", you are ready to continue.
 
-* Services (job queues, cache servers, search engines, etc.)
+###Pulling Project From the Git Repository
+Our public Git is hosted on Github at <https://github.com/Skookum-Nightshift/kit-starter>.
 
-* Deployment instructions
+You can clone this repository and build it by running:
 
-* ...
+$ git clone --recursive https://github.com/Skookum-Nightshift/kit-starter.git
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+
+
+
