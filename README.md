@@ -1,4 +1,4 @@
-<strong>About<strong>
+About
 
 Kit Starter is an open source project brought to you by Team Kit Start. The goal of this project is to provide a plug-in that can be used as an agnostic platform to gather physical products or monetary donations for any non-profit organization.
 
