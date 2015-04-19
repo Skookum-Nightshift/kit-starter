@@ -32,7 +32,14 @@ gem 'awesome_nested_set'
 
 gem 'devise'
 
-gem 'sqlite3'
+group :test, :development do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
 
 gem 'pry'
 
