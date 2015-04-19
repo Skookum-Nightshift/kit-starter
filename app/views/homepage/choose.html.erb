@@ -1,28 +1,76 @@
       <div class="jumbotron set-height">
-         <p>
-          <img src="//www.fillmurray.com/g/350/350" height="350" width="350">
-        </p>
-        <h2>Choose your path</h2>
-        <h3>ask your friends to help complete this kit</h3>
+        <div class="row">
+          <div class="box col-md-5">
+            
+          </div>
+          <div class="col-md-7">
+            <div class="border-box">
+              <div class="choose">
+                Choose
+              </div>
+              <div class="your_path">
+                Your Path
+              </div>
+            </div>
+            <div class="path_desc">
+              <p>Donate money towards a kit</p><p>or</p><p>drop off your own kit</p>
+            </div>
+          </div>
+        </div>
       </div>
 
+      <hr/>
 
       <div class="row">
-        <div class="col-md-6">
-          <p>
-            <a class="btn btn-lg btn-primary" href="drop_off" role="button">Drop off a kit &raquo;</a>
-          </p>
-          <p>
-            Donate a physical kit
-          </p>
-        </div>
-        <div class="col-md-6">
-          <p>
-            <a class="btn btn-lg btn-primary" href="donate" role="button">Pay money towards a kit &raquo;</a>
-          </p>
-          <p>
-            Donate money towards a kit
-          </p>          
-        </div>
+        <a href="donate">
+          <div class="col-md-6">
+            <div class="donate_money">
+
+            </div>
+          </div>
+        </a>
+        <a href="drop_off">
+          <div class="col-md-6">
+            <div class="donate_kit">
+
+            </div>
+          </div>
+        </a>
 
       </div>
+
+<style type="text/css">
+  .box {
+    background: url('http://placehold.it/1300x1010/ddaa0f&text=box') center no-repeat no-repeat;
+    min-height: 400px;
+  }
+  .border-box {
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .choose {
+    font-weight: 900;
+    font-size: 4em;
+  }
+  .your_path {
+    font-size: 2.5em;
+  }
+  .path_desc {
+    padding-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: center;
+    font-size: 1.5em;
+  }
+  .donate_kit {
+    background: url('http://placehold.it/1200x1200/aaffcc&text=buy') center no-repeat no-repeat;
+    min-height: 400px;
+  }
+  .donate_money {
+    background: url('http://placehold.it/1200x1200/33ffff&text=money') center no-repeat no-repeat;
+    min-height: 400px;
+  }
+</style>
