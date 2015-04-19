@@ -32,6 +32,8 @@ gem 'awesome_nested_set'
 
 gem 'devise'
 
+gem 'bootstrap-sass'
+
 group :test, :development do
   gem 'sqlite3'
 end
