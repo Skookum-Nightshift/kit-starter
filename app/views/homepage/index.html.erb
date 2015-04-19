@@ -1,5 +1,5 @@
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron set-height">
+      <div class="jumbotron call_to_action set-height">
           <%= raw @org.call_to_action %>
          <p><img src="" height="100" width="100"></p>
         <p>
@@ -7,12 +7,9 @@
         </p>
       </div>
 
-      <div class="jumbotron set-height">
+      <div class="jumbotron description set-height">
         <p>
           <%= @org.description %>
-        </p>
-        <p>
-          When Gabriel is 18, he's going to be chronicly homeless.
         </p>
         <p>
           <img src="" height="100" width="100">
@@ -50,3 +47,12 @@
       </div>
 
       <!-- hey comment -->
+<style type="text/css">
+  .call_to_action {
+    background: url('<%= @org.homepage_bg_image_url %>') no-repeat center center;
+
+  }
+  .description {
+    background: url('<%= @org.description_image_url %>') no-repeat center center;
+  }
+</style>

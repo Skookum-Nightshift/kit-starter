@@ -11,6 +11,8 @@
     name: 'Beds For Kids',
     call_to_action: 'Call To Action',
     lower_third: 'Lower Third',
+    homepage_bg_image_url: 'http://placehold.it/1920x1080/CCFF99',
+    description_image_url: 'http://placehold.it/1920x1080/FFCCFF',
     kits: [
       {
         name: 'Bedroom Kit',
@@ -30,47 +32,47 @@
         ]
       }
     ]
-  },
-  {
-    name: 'Housing First',
-    call_to_action: 'Call To Action',
-    lower_third: 'Lower Third',
-    kits: [
-      {
-        name: '',
-        description: '',
-        total: '',
-        items: [
-          {
-            name: '',
-            price: '',
-            description: ''
-          }
-        ]
-      }
-    ]
-  },
-  {
-    name: 'Joe Wants Bike',
-    call_to_action: 'Call To Action',
-    lower_third: 'Lower Third',
-    kits: [
-      {
-        name: '',
-        description: '',
-        total: '',
-        items: [
-          {
-            name: '',
-            price: '',
-            description: ''
-          }
-        ]
-      }
-    ]
   }
+  # {
+  #   name: 'Housing First',
+  #   call_to_action: 'Call To Action',
+  #   lower_third: 'Lower Third',
+  #   kits: [
+  #     {
+  #       name: '',
+  #       description: '',
+  #       total: '',
+  #       items: [
+  #         {
+  #           name: '',
+  #           price: '',
+  #           description: ''
+  #         }
+  #       ]
+  #     }
+  #   ]
+  # },
+  # {
+  #   name: 'Joe Wants Bike',
+  #   call_to_action: 'Call To Action',
+  #   lower_third: 'Lower Third',
+  #   kits: [
+  #     {
+  #       name: '',
+  #       description: '',
+  #       total: '',
+  #       items: [
+  #         {
+  #           name: '',
+  #           price: '',
+  #           description: ''
+  #         }
+  #       ]
+  #     }
+  #   ]
+  # }
 ].each do |org|
-  tmp_org = Organization.create!(name: org[:name], call_to_action: org[:call_to_action], lower_third: org[:lower_third])
+  tmp_org = Organization.create!(name: org[:name], call_to_action: org[:call_to_action], lower_third: org[:lower_third], homepage_bg_image_url: org[:homepage_bg_image_url], description_image_url: org[:description_image_url])
   org[:kits].each do |kit|
     tmp_kit = Kit.create!(name: kit[:name], description: kit[:description], total: kit[:total], organization_id: tmp_org.id)
     kit[:items].each do |item|
