@@ -9,25 +9,40 @@
 [
   {
     name: 'Beds For Kids',
-    call_to_action: 'Call To Action',
-    lower_third: 'Lower Third',
+    call_to_action: 'Giving a good night\'s sleep',
+    lower_third: 'Thousands of children sleep without a bed or on the floor every night in Charlotte. Donate today to help make a difference.',
     homepage_bg_image_url: 'http://placehold.it/1920x1080/CCFF99',
     description_image_url: 'http://placehold.it/1920x1080/FFCCFF',
     kits: [
       {
         name: 'Bedroom Kit',
-        description: '',
-        total: '10',
+        description: 'Often times Beds for Kids will deliver beds to a family who will eagerly receive them, but will still be lacking the linens and pillows needed to properly outfit the bed.',
+        total: '40',
         items: [
           {
-            name: 'Pillow',
-            price: '10.00',
-            description: 'This soft feather filled device'
+            name: '1 Twin Flat sheet',
+            price: '8',
+            description: ''
           },
           {
-            name: 'Sheets',
-            price: '10.00',
-            description: 'This soft feather filled device'
+            name: '1 Twin Fitted sheet',
+            price: '8',
+            description: ''
+          },
+          {
+            name: '1 Twin Blanket',
+            price: '15',
+            description: ''
+          },
+          {
+            name: '1 Pillow',
+            price: '10',
+            description: ''
+          },          
+          {
+            name: '1 Pillow Case',
+            price: '4',
+            description: ''
           }
         ]
       }
