@@ -36,7 +36,7 @@ gem 'devise'
 gem 'bootstrap-sass'
 
 group :test, :development do
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.10'
 end
 
 group :production do
@@ -45,6 +45,8 @@ group :production do
 end
 
 gem 'pry'
+
+gem 'tzinfo-data'
 
 # group :production do
 #   gem 'pg'
