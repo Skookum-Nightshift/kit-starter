@@ -11,7 +11,12 @@ class HomepageController < ApplicationController
   end
 
   def set_org
-    @org = Organization.all.sample
+    if params[:action].eql?('index')
+      @org = Organization.all.sample
+      cookies['org_id'] = @org.id
+    else
+      @org = Organization.find(cookies['org_id'])
+    end
   end
 
 end
