@@ -1,3 +1,111 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+/*#carbonads-container {display:none} h1[id] {padding-top:0px; margin-top:20px} .zero-clipboard {display:none !important} .bs-old-docs {display:none} .bs-social {display:none} .bs-sidebar {display:none !important} .col-md-9[role=main] {width:100% !important} .navbar-fixed-top {position:absolute !important}
+*/
+
+/** MAIN PAGE (index)
+********************************/
+
 .set-height {
   min-height: 400px;
+}
+
+.call_to_action {
+	/*background: url('<%= @org.homepage_bg_image_url %>') no-repeat center;
+	background-size: cover; */
+	background: url('http://res.cloudinary.com/dxhabwozn/image/upload/v1429811162/Kit-jumboimage-1920x1080_a4kx6g.png') no-repeat center;
+	background-size: cover; 
+}
+
+.description {
+	/*background: url('<%= @org.description_image_url %>') no-repeat center center;
+	background-size: cover; */
+	background: url('http://placehold.it/1920x1080') no-repeat center;
+	background-size: cover;
+	color: #ffffff;
+}
+
+.description p {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.action {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 4em;
+}
+
+.donatetoday {
+	display: inline-block;
+	border: 4px solid #ffffff;
+	padding: 20px;
+	font-size: 2em;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.donatetoday span {
+	font-weight: bold;
+}
+
+/** CHOOSE PAGE
+********************************/
+
+.box {
+	background: url('http://placehold.it/1300x1010/ddaa0f&text=box') center no-repeat no-repeat;
+	min-height: 400px;
+}
+.border-box {
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.choose {
+	font-weight: 900;
+	font-size: 4em;
+}
+.your_path {
+	font-size: 2.5em;
+}
+.path_desc {
+	padding-top: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: center;
+	font-size: 1.5em;
+}
+.donate_kit {
+	background: url('http://placehold.it/1200x1200/aaffcc&text=buy') center no-repeat no-repeat;
+	min-height: 400px;
+}
+.donate_money {
+	background: url('http://placehold.it/1200x1200/33ffff&text=money') center no-repeat no-repeat;
+	min-height: 400px;
+}
+
+/** FOOTER
+********************************/
+
+.socialshare {
+	text-align: center;
+}
+
+/** FOOTER
+********************************/
+
+.footer {
+	text-align: center;
+	background-color: #101010;
+	color: #fff;
+	padding: 20px;
 }
