@@ -1,18 +1,21 @@
       <div class="row">
       <div class="jumbotron set-height">
         <div class="row">
-          <div class="col-md-6">
-            <p>
-              <img src="http://www.fillmurray.com/g/400/250" />
-            </p>
+          <div class="box col-md-5">
           </div>
-          <div class="col-md-6">
-            <h2>Your Donation</h2>
-            <p id="donate_amount">asdf</p>
+          <div class="col-md-7">
+            <div class="border-box">
+                Every donation is a small step towards success         
+            </div>
+            <p id="donate_amount">intial</p>
+            <input id="slider1" type="range" min="1" max="<%= @total_cost.to_f.to_s %>" step="1" onmousemove="updateDonationDisplay(this.value);" />
+            <a href="pay.html">
+              <div class="donatetodayblack">Donate this <span>Amount</span></div>
+            </a>  
           </div>
         </div>
-        <input id="slider1" type="range" min="1" max="<%= @total_cost.to_f.to_s %>" step="1" onmousemove="updateDonationDisplay(this.value);" />
       </div>
+
 
 <script type="text/javascript">
   function updateDonationDisplay(value){
@@ -52,29 +55,21 @@
           </div>
         </div> -->
 
-<br />
-
-<a class="btn btn-lg btn-primary" href="pay.html" role="button">Donate Today »</a>
-<br /><br />
-
-<div class="col-md-8 col-md-offset-2">
-<div class="row">
-  <% @items = @org.kits.sample.items %>
-  <% @items.each do |item| %>
-    <div class="col-md-3">
-      <img src="http://www.fillmurray.com/g/100/100">
-      <p class="itemname"><%= item.name %></p>
-      <p><%= item.price %></p>
-      <!-- <p><%= item.description %></p> -->
-      <br />
-    </div>
-  <% end %>
-</div>
-</div>
-<br />
-<a class="btn btn-lg btn-primary" href="pay.html" role="button">Donate Today »</a>
-
-<br />
-<br />
-
-</div>
+      <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+        <div class="row">
+          <% @items = @org.kits.sample.items %>
+          <% @items.each do |item| %>
+            <div class="col-sm-3">
+              <img src="http://www.fillmurray.com/g/100/100">
+              <p class="itemname"><%= item.name %></p>
+              <p><%= item.price %></p>
+              <!-- <p><%= item.description %></p> -->
+              <br />
+            </div>
+          <% end %>
+        </div>
+        </div>
+      </div>
+      </div>

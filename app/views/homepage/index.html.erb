@@ -1,7 +1,6 @@
-      <!-- Main component for a primary marketing message or call to action -->
       <div class="row">
-      <div class="jumbotron call_to_action set-height">
-        <div class="shadow">
+      <div class="topsection call_to_action set-height">
+        <div class="mainshadow">
           <div class="action"><%= raw @org.call_to_action %></div>
           <a href="choose.html"><div class="donatetoday">Donate<br/><span>Today</span></div></a>
         </div>
@@ -9,41 +8,36 @@
 
       
 
-      <div class="jumbotron description set-height">
-        <p>
+      <div class="topsection description set-height">
+        <div class="shadow">
+        <div class="explaination">
           <%= @org.description %>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolorem modi sunt, quas debitis consequuntur commodi error possimus, quia, rem culpa porro aspernatur. Nesciunt quam nostrum tempore quia, porro impedit.
-        </p>
+        </div>
+        </div>
       </div>
 
 
 
       <div class="row">
-        <div class="col-md-7 set-height">
-          <div class="jumbotron set-height">
+        <div class="col-sm-7 left leftthird">
             <p>
               <img src="http://res.cloudinary.com/dxhabwozn/image/upload/v1429962053/kitstart-favicon_pxvhxj.png">
             </p>
             <p>
               Kit Start is a tool to "donate today" those often overlooked, but necessary, items to those in need. A small kit makes for a big step towards success.
             </p>
-            <p>
-              <a href="choose.html"><div class="donatetoday">Donate<br/><span>Today</span></div></a>
-            </p>
-          </div>
+            <a href="hope.html"><div class="donatetoday">Our<br/><span>Hope</span></div></a>
         </div>
-        <div class="col-md-5">
-          <div class="jumbotron set-height">
-            <p>
-              <a href="choose.html"><div class="donatetoday">Help<br/><span>Support</span></div></a>
-            </p>
+        <div class="col-sm-5 lowerthird">
             <h3><%= @org.name %></h3>
             <p>
               <%= @org.lower_third %>
             </p>
-          </div>
+            <a href="choose.html"><div class="donatetoday">Donate<br/><span>Today</span></div></a>
         </div>
       </div>
+
       </div>
 <!-- 
 <style type="text/css">
