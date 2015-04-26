@@ -1,13 +1,15 @@
-<nav class="navbar navbar-inverse navbar-default">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
+    
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"> </span>
+        <span class="icon-bar"></span>
       </button>
+      <a class="navbar-brand" href="/"><img src="http://placehold.it/50x50/008F89&text=KS"></a>
       <a class="navbar-brand" href="/"><%= @org.name %></a>
     </div>
 
@@ -16,20 +18,14 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <ul class="dropdown-menu"></ul>
-          <li class="<%= menu_active('team') %>"><a href="team">The Team</a></li>
+          <li class="<%= menu_active('team') %>"><a href="team">Team</a></li>
           <li class="<%= menu_active('hope') %>"><a href="hope">Our Hope</a></li>
           <li class="<%= menu_active('others') %>"><a href="others">Others</a></li>
-          <li class="<%= menu_active('') %>"><a href="#">FB</a></li>
-          <li class="<%= menu_active('') %>"><a href="#">TW</a></li>
-          <li class="<%= menu_active('') %>"><a href="#">IN</a></li>
+          <li class="<%= menu_active('') %>"><a href="#"><img src="http://placehold.it/20x20/5080C2&text=f" alt="facebook"></a></li>
+          <li class="<%= menu_active('') %>"><a href="#"><img src="http://placehold.it/20x20/63CEF2&text=t" alt="facebook"></a></li>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
-  <!-- javascript src code -->
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <!-- makes nav bar clickable -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </nav>
 

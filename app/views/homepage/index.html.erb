@@ -1,52 +1,45 @@
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron call_to_action set-height">
-          <%= raw @org.call_to_action %>
-         <p class="donatetoday">Donate Today</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="choose" role="button">Donate Today &raquo;</a>
-        </p>
+      <div class="row">
+      <div class="topsection call_to_action set-height">
+        <div class="mainshadow">
+          <div class="action"><%= raw @org.call_to_action %></div>
+          <a href="choose.html"><div class="donatetoday">Donate<br/><span>Today</span></div></a>
+        </div>
       </div>
 
-      <div class="jumbotron description set-height">
-        <p>
+      
+
+      <div class="topsection description set-height">
+        <div class="shadow">
+        <div class="explaination">
           <%= @org.description %>
-        </p>
-        <p>
-          <img src="" height="100" width="100">
-        </p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolorem modi sunt, quas debitis consequuntur commodi error possimus, quia, rem culpa porro aspernatur. Nesciunt quam nostrum tempore quia, porro impedit.
+        </div>
+        </div>
       </div>
+
+
 
       <div class="row">
-        <div class="col-md-7 set-height">
-          <div class="jumbotron set-height">
+        <div class="col-sm-7 left leftthird">
             <p>
-              <img src="" height="50" width="200">
+              <img src="http://res.cloudinary.com/dxhabwozn/image/upload/v1429962053/kitstart-favicon_pxvhxj.png">
             </p>
             <p>
-              Kitstarter is a platform to provide daily essentials and furnishings for those placed in our housing to help solve chronic homelessness.
+              Kit Start is a tool to "donate today" those often overlooked, but necessary, items to those in need. A small kit makes for a big step towards success.
             </p>
-            <p>
-              <a class="btn btn-lg btn-primary" href="../../components/index.html#navbar" role="button">Donate Today &raquo;</a>
-            </p>
-          </div>
+            <a href="hope.html"><div class="donatetoday">Our<br/><span>Hope</span></div></a>
         </div>
-        <div class="col-md-5">
-          <div class="jumbotron set-height">
-            <p>
-              <img src="" height="50" width="100">
-            </p>
+        <div class="col-sm-5 lowerthird">
             <h3><%= @org.name %></h3>
             <p>
               <%= @org.lower_third %>
             </p>
-            <p>
-              <a class="btn btn-lg btn-primary" href="../../components/index.html#navbar" role="button">Visit  &raquo;</a>
-            </p>
-          </div>
+            <a href="choose.html"><div class="donatetoday">Donate<br/><span>Today</span></div></a>
         </div>
       </div>
 
-      <!-- hey comment -->
+      </div>
+<!-- 
 <style type="text/css">
   .call_to_action {
     background: url('<%= @org.homepage_bg_image_url %>') no-repeat center center;
@@ -55,4 +48,4 @@
   .description {
     background: url('<%= @org.description_image_url %>') no-repeat center center;
   }
-</style>
+</style> -->

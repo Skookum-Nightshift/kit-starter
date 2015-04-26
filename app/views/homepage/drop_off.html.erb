@@ -1,24 +1,60 @@
-      <div class="jumbotron set-height">
-         <p>
-          <img src="http://www.fillmurray.com/g/550/250" height="250" width="550">
-        </p>
-        <h2>Drop Off</h2>
-        <h3>Buy and deliver yourself.</h3>
-      </div>
-
-
       <div class="row">
-        <div class="col-md-6">
-          <p>Info side one</p>
+      <div class="jumbotron set-height">
+        <div class="row">
+          <div class="box col-md-5">
+          </div>
+          <div class="col-md-7">
+            <div class="border-box">
+              <div class="choose">
+                directions
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-6">
-          <p>Info side two</p>
-        </div>
-
       </div>
 
+<hr />
+      <div class="container">
+      <div class="row">
+        
+        
+          <div class="col-md-4">
+            <h2>WHEN</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi non tempora, quia. Voluptatum facere animi quo laboriosam, minima aperiam. Veritatis explicabo iste quisquam incidunt aliquid, iusto eveniet, enim natus suscipit.</p>
+          </div>
+        
+        
+        
+          <div class="col-md-4">
+            <h2>WHERE</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.</p>
+          </div>
+          
+          <div class="col-md-4">
+            <h2>WHAT</h2>
+            <p>Here are the items on the list</p>
+            <div class="row">
+              <% @items = @org.kits.sample.items %>
+              <% @items.each do |item| %>
+                <div class="col-sm-6">
+                  <!-- <img src="http://www.fillmurray.com/g/100/100"> -->
+                  <p class="itemname"><%= item.name %></p>
+                  <!-- <p><%= item.price %></p> -->
+                  <!-- <p><%= item.description %></p> -->
+                  <br />
+                </div>
+              <% end %>
+            </div>
+          </div>
+
+      </div>
+      </div>
+<!-- 
       <style type="text/css">
         .box {
           background: url('http://placehold.it/1300x1149/ddaa0f')
         }
       </style>
+      </div> -->
+
+</div>

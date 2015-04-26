@@ -1,3 +1,374 @@
-.set-height {
-  min-height: 400px;
+/** GENERAL STUFF 
+********************************/
+
+body {
+  padding-top: 50px;
+  overflow-x: hidden;
 }
+
+.container-fluid .jumbotron {
+	border-radius: 0px;
+}
+
+/*.jumbotron {
+  position: relative;
+}*/
+
+.topsection {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.lowersection {
+  margin-bottom: 20px;
+}
+
+.mainshadow {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  padding: 20px;
+  color: #ffffff; 
+}
+
+.shadow {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  padding: 20px;
+  font-size: 2em;
+  color: #ffffff; 
+}
+
+
+/** NAV 
+********************************/
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-brand img {
+  display: inline;
+  padding-right: 10px;
+  margin-top: -14px;
+}
+
+
+
+/** MAIN PAGE (index)
+********************************/
+
+.set-height {
+  min-height: 500px;
+}
+
+.call_to_action {
+	/*background: url('<%= @org.homepage_bg_image_url %>') no-repeat center;
+	background-size: cover; */
+	background: url('http://res.cloudinary.com/dxhabwozn/image/upload/v1429811162/Kit-jumboimage-1920x1080_a4kx6g.png') no-repeat center;
+	background-size: cover; 
+}
+
+.description {
+	/*background: url('<%= @org.description_image_url %>') no-repeat center center;
+	background-size: cover; */
+	background: url('http://placehold.it/1920x1080') no-repeat center;
+	background-size: cover;
+}
+
+.action {
+	color: #ffffff;
+	text-transform: uppercase;
+  font-size: 4em;
+}
+
+.donatetoday {
+	display: inline-block;
+	border: 4px solid #ffffff;
+	padding: 20px;
+	font-size: 2em;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.donatetoday span {
+	font-weight: bold;
+}
+
+.donatetoday a, .donatetoday a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.lowerthird {
+  background-color: #008F89;
+}
+
+.lowerthird p, .lowerthird h3, .leftthird p {
+  color: #fff;
+}
+
+.lowerthird h3 {
+  font-size: 3em;
+}
+
+.leftthird {
+  background-color: #686868;
+}
+
+.lowerthird, .leftthird {
+  padding: 40px;
+  height: 400px;
+  margin-bottom: 20px; 
+}
+
+
+/** CHOOSE PAGE
+********************************/
+
+.box {
+	background: url('http://placehold.it/1300x1010/ddaa0f&text=box') center no-repeat no-repeat;
+	min-height: 400px;
+}
+
+.border-box {
+  display: inline-block;
+  border: 4px solid #000;
+  padding: 20px;
+  font-size: 2em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+.choose {
+	font-weight: 900;
+	font-size: 2em;
+}
+
+.your_path {
+	font-size: 2em;
+}
+
+.path_desc {
+	padding-top: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: center;
+	font-size: 1.5em;
+}
+
+.donate_kit {
+	background: url('http://placehold.it/1200x1200/008f89&text=buy') center no-repeat no-repeat;
+	min-height: 400px;
+}
+
+.donate_money {
+	background: url('http://placehold.it/1200x1200/686868&text=money') center no-repeat no-repeat;
+	min-height: 400px;
+}
+
+.donatetodayblack {
+  display: inline-block;
+  border: 4px solid #000;
+  padding: 20px;
+  font-size: 2em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.donatetodayblack span {
+  font-weight: bold;
+}
+
+.donatetodayblack a, .donatetodayblack a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+/** DONATE PAGE and SLIDER
+********************************/
+
+#donate_amount {
+  font-size: 4em;
+  text-align: center;
+}
+
+.itemname {
+	height: 50px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 12.8px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  background: #ac51b5;
+  border-radius: 25px;
+  border: 0px solid #000101;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0px solid #000000;
+  height: 20px;
+  width: 39px;
+  border-radius: 7px;
+  background: #65001c;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3.6px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ac51b5;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 12.8px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  background: #ac51b5;
+  border-radius: 25px;
+  border: 0px solid #000101;
+}
+
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0px solid #000000;
+  height: 20px;
+  width: 39px;
+  border-radius: 7px;
+  background: #65001c;
+  cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 12.8px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  border-width: 39px 0;
+  color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+  background: #ac51b5;
+  border: 0px solid #000101;
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+
+input[type=range]::-ms-fill-upper {
+  background: #ac51b5;
+  border: 0px solid #000101;
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0px solid #000000;
+  height: 20px;
+  width: 39px;
+  border-radius: 7px;
+  background: #65001c;
+  cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #ac51b5;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #ac51b5;
+}
+
+
+
+/** SOCIAL
+********************************/
+
+.socialshare {
+	text-align: center;
+}
+
+
+
+/** OUR HOPE
+********************************/
+
+.tagline {
+  font-size: 2em;
+}
+
+.ourhope {
+  background-image: url('http://res.cloudinary.com/dxhabwozn/image/upload/v1429980761/spark_buqyjy.jpg');
+  background-position: top;
+  background-size: cover; 
+  color: #ffffff;
+}
+
+
+
+/** THE TEAM
+********************************/
+
+.theteam {
+  background-image: url('http://res.cloudinary.com/dxhabwozn/image/upload/v1429981617/team_tspjjc.jpg');
+  background-position: top;
+  background-size: cover; 
+  color: #ffffff;
+}
+
+
+
+/** Others
+********************************/
+
+.others {
+  background-image: url('http://res.cloudinary.com/dxhabwozn/image/upload/v1429983414/hope_jl72g4.jpg');
+  background-position: top;
+  background-size: cover; 
+  color: #ffffff;
+}
+
+
+
+/** FOOTER
+********************************/
+
+.footer {
+	text-align: center;
+	background-color: #101010;
+	color: #fff;
+	padding: 20px;
+}
+

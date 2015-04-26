@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kit Start | <%= @org.name %></title>
+<!-- this css and junk is really confusing me and my style :)
   <%= stylesheet_link_tag 'application' %>
   <%= stylesheet_link_tag 'bootstrap.min' %>
   <%= stylesheet_link_tag 'navbar' %>
-  <%= stylesheet_link_tag 'custom' %>
   <%= javascript_include_tag 'application' %>
+  
   <%= csrf_meta_tags %>
+-->
   <%= favicon_link_tag 'favicon.png' %>
+  <!-- Bootstrap core CSS -->
+  <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- custom CSS -->
+  <%= stylesheet_link_tag 'custom' %>
+
+  <!-- makes nav bar clickable -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
       <%= render template: 'layouts/nav' %>
+    <div class="container-fluid">
       <%= yield %>
-      <%= render template: 'layouts/footer' %>
     </div>
+      <%= render template: 'layouts/footer' %>
 </body>
 </html>
