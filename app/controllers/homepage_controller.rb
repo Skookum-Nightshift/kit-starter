@@ -10,9 +10,17 @@ class HomepageController < ApplicationController
     @total_cost = @org.kits.first.items.map(&:price).sum
   end
 
+  def others
+    @organizations = Organization.all
+  end
+
   def set_org
     if params[:action].eql?('index')
-      @org = Organization.all.sample
+      if params.has_key?(:org)
+        @org = Organization.find_by_name(params[:org])
+      else
+        @org = Organization.all.sample
+      end
       cookies['org_id'] = @org.id
     else
       @org = Organization.find(cookies['org_id'])
