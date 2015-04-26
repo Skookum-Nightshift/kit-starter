@@ -7,9 +7,9 @@
             <div class="border-box">
                 Every donation is a small step towards success         
             </div>
-            <p id="donate_amount">intial</p>
-            <input id="slider1" type="range" min="1" max="<%= @total_cost.to_f.to_s %>" step="1" onmousemove="updateDonationDisplay(this.value);" />
-            <a href="pay.html">
+            <p id="donate_amount">$1</p>
+            <input id="slider1" type="range" value="0" min="1" max="<%= @total_cost.to_f.to_s %>" step="1" onmousemove="updateDonationDisplay(this.value);" />
+            <a href="pay">
               <div class="donatetodayblack">Donate this <span>Amount</span></div>
             </a>  
           </div>
@@ -20,7 +20,7 @@
 <script type="text/javascript">
   function updateDonationDisplay(value){
     console.log('wer are being called')
-    $('#donate_amount')[0].innerHTML = value
+    $('#donate_amount')[0].innerHTML = '$' + value
   }
 </script>
 <!-- 
