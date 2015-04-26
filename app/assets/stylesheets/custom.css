@@ -312,6 +312,22 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 
+/** PAYMENT PAGE
+********************************/
+
+.greenpay {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2em;
+  background-color: #008F89;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.stripe {
+  margin-bottom: 100px;
+  text-align: center;
+}
 
 /** SOCIAL
 ********************************/
