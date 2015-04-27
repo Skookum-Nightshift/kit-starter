@@ -20,21 +20,33 @@
         
           <div class="col-md-4">
             <h2>WHEN</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi non tempora, quia. Voluptatum facere animi quo laboriosam, minima aperiam. Veritatis explicabo iste quisquam incidunt aliquid, iusto eveniet, enim natus suscipit.</p>
+            <p>
+              <%= @org.kits.first.when %>
+            </p>
           </div>
         
         
         
           <div class="col-md-4">
             <h2>WHERE</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.</p>
+            <p>
+              <%= @org.kits.first.where %>
+            </p>
           </div>
+
+
+          <div class="col-md-4">
+            <h2>WHO</h2>
+            <p>
+              <%= @org.kits.first.who %>
+            </p>
+          </div>          
           
           <div class="col-md-4">
             <h2>WHAT</h2>
             <p>Here are the items on the list</p>
             <div class="row">
-              <% @items = @org.kits.sample.items %>
+              <% @items = @org.kits.first.items %>
               <% @items.each do |item| %>
                 <div class="col-sm-6">
                   <!-- <img src="http://www.fillmurray.com/g/100/100"> -->

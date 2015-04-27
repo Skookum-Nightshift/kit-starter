@@ -21,6 +21,9 @@
         name: 'Bedroom Kit',
         description: 'Often times Beds for Kids will deliver beds to a family who will eagerly receive them, but will still be lacking the linens and pillows needed to properly outfit the bed.',
         total: '300',
+        who: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
+        when: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
+        where: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
         items: [
           {
             name: '1 Twin Flat sheet',
@@ -66,6 +69,9 @@
         name: 'Welcome Home Kit',
         description: 'When individuals who have experienced homelessness finally move into their home it can be very overwhelming! Welcome home kits help to ease our neighbors into housing and provide them with basic items that address everyday needs.',
         total: '48',
+        who: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
+        what: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
+        where: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
         items: [
           {
             name: '2 Pillows',
@@ -276,6 +282,9 @@
         name: 'School Supplies Backpack',
         description: 'Classroom Central outfits the highest poverty schools in the region with school supply kits and backpacks for their entire student body.',
         total: '400',
+        who: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
+        when: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
+        where: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
         items: [
           {
             name: '1 Backback',
@@ -366,6 +375,9 @@
         name: 'Holiday Meal Groceries',
         description: 'Our mission is to provide a nutritious holiday groceries meals to people within our community facing economic hardships.',
         total: '40',
+        who: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
+        when: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
+        where: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
         items: [
           {
             name: '1 15-pound turkey',
@@ -445,7 +457,7 @@
 ].each do |org|
   tmp_org = Organization.create!(name: org[:name], call_to_action: org[:call_to_action], lower_third: org[:lower_third], homepage_bg_image_url: org[:homepage_bg_image_url], description_image_url: org[:description_image_url])
   org[:kits].each do |kit|
-    tmp_kit = Kit.create!(name: kit[:name], description: kit[:description], total: kit[:total], organization_id: tmp_org.id)
+    tmp_kit = Kit.create!(name: kit[:name], description: kit[:description], total: kit[:total], organization_id: tmp_org.id, who: kit[:who], when: kit[:when], where: kit[:where])
     kit[:items].each do |item|
       tmp_item = Item.create!(name: item[:name], price: item[:price], description: item[:description], kit_id: tmp_kit.id)
     end
