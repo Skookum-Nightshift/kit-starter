@@ -34,7 +34,7 @@ body {
 }
 
 .shadow {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.8);
   position: absolute;
   bottom: 0;
   margin: 0;
@@ -44,6 +44,9 @@ body {
   color: #ffffff; 
 }
 
+.shadow p {
+    text-align: center; 
+}
 
 /** NAV 
 ********************************/
