@@ -80,17 +80,17 @@ body {
 }
 
 .call_to_action {
-	background: url('<%= @org.homepage_bg_image_url %>') no-repeat center;
-	background-size: cover; 
-/*	background: url('http://res.cloudinary.com/dxhabwozn/image/upload/v1429811162/Kit-jumboimage-1920x1080_a4kx6g.png') no-repeat center;
+/*	background: url('<%= @org.homepage_bg_image_url %>') no-repeat center;
 	background-size: cover; */
+	background: url('http://res.cloudinary.com/dxhabwozn/image/upload/v1429811162/Kit-jumboimage-1920x1080_a4kx6g.png') no-repeat center;
+	background-size: cover; 
 }
 
 .description {
-	background: url('<%= @org.description_image_url %>') no-repeat center center;
-	background-size: cover; 
-/*	background: url('http://placehold.it/1920x1080') no-repeat center;
-	background-size: cover;*/
+/*	background: url('<%= @org.description_image_url %>') no-repeat center center;
+	background-size: cover; */
+	background: url('http://res.cloudinary.com/dxhabwozn/image/upload/v1430438842/07summer_600_ynb9yo.jpg') no-repeat center;
+	background-size: cover;
 }
 
 .action {
