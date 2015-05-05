@@ -409,6 +409,9 @@ input[type=range]:focus::-ms-fill-upper {
 	padding: 20px;
 }
 
+.donate_image{
+  width: 100px;
+}
 
 
 .donatetodayblack:hover {

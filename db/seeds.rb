@@ -28,27 +28,32 @@
           {
             name: '1 Twin Flat sheet',
             price: '8',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Twin Fitted sheet',
             price: '8',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Twin Blanket',
             price: '15',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Pillow',
             price: '10',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },          
           {
             name: '1 Pillow Case',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           }
         ]
       }
@@ -76,192 +81,230 @@
           {
             name: '2 Pillows',
             price: '18',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Sponge',
             price: '2',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Dust Pan',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Sponge Mop',
             price: '8',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           }, 
           {
             name: '1 Angle Broom',
             price: '5',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Oblong Metal Pan',
             price: '5',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 Bath Towel',
             price: '8',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 Hand Towel',
             price: '6',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 Wash Cloth',
             price: '6',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Basting Spoon',
             price: '2',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Slotted Spoon',
             price: '2',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Small Turner',
             price: '2',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 3-Piece Knife Set',
             price: '15',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           }, 
           {
             name: '1 Hand Can Opener',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 10-Qt. Mop Pail - Red',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 7-Piece Cookware, Single Ply',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           }, 
           {
             name: '1 All Purpose Cleaner',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Plastic Salt & Pepper Shakers',
             price: '3',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 Packs 60 Watt Light Bulbs',
             price: '8',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 C-Ring Shower Hooks',
             price: '6',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 12-Count 13-Gallon Trash Bags',
             price: '6',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '4 Teaspoons',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '4 Dinner Fork',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '4 Dinner Knife',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Laundry Bag, 24" x 36"',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           }, 
           {
             name: '1 Palmolive Dish Washing Liquid, 3 Oz.',
             price: '3',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 21-Oz. Ajax Powder',
             price: '3',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 Wisk Liquid, 2 Oz. Pouch',
             price: '3',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           }, 
           {
             name: '4 Toilet Paper',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 Marcel Paper Towels',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 Safeguard, 4.3 Oz. Soap Bars',
             price: '3',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 22-Qt. Wastebasket',
             price: '8',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Queen Sheet Set',
             price: '20',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 2.4-GU Shower Liner with Magnets',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 16-Piece Melamine Dinnerware',
             price: '5',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 94" x 94" Queen Allsoft Cotton Blanket',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Kitchen Towel',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },                                                           
           {
             name: '1 Kitchen Scissors',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           }          
         ]
       }
@@ -289,72 +332,86 @@
           {
             name: '1 Backback',
             price: '15',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Package Markets',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Package Colored Pencils',
             price: '3',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '24 No. 2 Pencils',
             price: '6',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           }, 
           {
             name: '3 Pens',
             price: '2',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 Pink Erasers',
             price: '2',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Pencil Box or Pounch',
             price: '2',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '3 Yellow Hilighters',
             price: '2',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '3 Glue Sticks',
             price: '2',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Ruler',
             price: '1',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 Scissors',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '3 Wide-Ruled Spiral Notebooks',
             price: '6',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '5 Twin-Pocket Folders',
             price: '10',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           }, 
           {
             name: '1 Calculator',
             price: '10',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           }
         ]
       }
@@ -382,72 +439,86 @@
           {
             name: '1 15-pound turkey',
             price: '18',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 fruit juices (apple, grape or cranberry)',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 large box of instant mashed potatoes',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 packages of stuffing mix',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 cans of green beans',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           }, 
           {
             name: '2 cans of peas',
             price: '2',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 cans of corn',
             price: '2',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 cans of yams',
             price: '3',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 jars of gravy',
             price: '3',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 cans of cranberry sauce',
             price: '3',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 cans of fruit',
             price: '3',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 cans of chicken broth',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '2 packages of pudding',
             price: '4',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           },
           {
             name: '1 package coffee',
             price: '6',
-            description: ''
+            description: '',
+            image_url: 'http://fillmurray.com/250/250'
           }
         ]
       }
@@ -459,7 +530,7 @@
   org[:kits].each do |kit|
     tmp_kit = Kit.create!(name: kit[:name], description: kit[:description], total: kit[:total], organization_id: tmp_org.id, who: kit[:who], when: kit[:when], where: kit[:where])
     kit[:items].each do |item|
-      tmp_item = Item.create!(name: item[:name], price: item[:price], description: item[:description], kit_id: tmp_kit.id)
+      tmp_item = Item.create!(name: item[:name], price: item[:price], description: item[:description], kit_id: tmp_kit.id, image_url: item[:image_url])
     end
   end
 end

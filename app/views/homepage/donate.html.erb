@@ -9,7 +9,7 @@
             </div>
             <p id="donate_amount">$1</p>
             <input id="slider1" type="range" value="0" min="1" max="<%= @total_cost.to_f.to_s %>" step="1" onmousemove="updateDonationDisplay(this.value);" />
-            <form id="donateForm" action="/share">
+            <form method="post" id="donateForm" action="/share">
               <div class="donatetodayblack">Donate this <span>Amount</span></div>
               <input id="hidden_amount" type="hidden" name="amount" value="">
             </form>  
@@ -33,7 +33,7 @@
           <% @items = @org.kits.sample.items %>
           <% @items.each do |item| %>
             <div class="col-sm-3">
-              <img src="http://www.fillmurray.com/g/100/100">
+              <img class="donate_image" src="<%= item.image_url %>">
               <p class="itemname"><%= item.name %></p>
               <p><%= item.price %></p>
               <!-- <p><%= item.description %></p> -->
