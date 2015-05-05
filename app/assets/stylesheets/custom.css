@@ -10,9 +10,9 @@ body {
 	border-radius: 0px;
 }
 
-/*.jumbotron {
-  position: relative;
-}*/
+.jumbotron {
+  background-color: #ffffff;
+}
 
 .topsection {
   position: relative;
