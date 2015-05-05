@@ -391,3 +391,8 @@ input[type=range]:focus::-ms-fill-upper {
 	padding: 20px;
 }
 
+
+
+.donatetodayblack:hover {
+  background: #3071A9
+}

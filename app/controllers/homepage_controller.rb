@@ -14,6 +14,10 @@ class HomepageController < ApplicationController
     @organizations = Organization.all
   end
 
+  def share
+    binding.pry
+  end
+
   def set_org
     if params[:action].eql?('index')
       if params.has_key?(:org)

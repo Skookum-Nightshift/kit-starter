@@ -9,9 +9,10 @@
             </div>
             <p id="donate_amount">$1</p>
             <input id="slider1" type="range" value="0" min="1" max="<%= @total_cost.to_f.to_s %>" step="1" onmousemove="updateDonationDisplay(this.value);" />
-            <a href="pay">
+            <form id="donateForm" action="/share">
               <div class="donatetodayblack">Donate this <span>Amount</span></div>
-            </a>  
+              <input id="hidden_amount" type="hidden" name="amount" value="">
+            </form>  
           </div>
         </div>
       </div>
@@ -19,41 +20,11 @@
 
 <script type="text/javascript">
   function updateDonationDisplay(value){
-    console.log('wer are being called')
     $('#donate_amount')[0].innerHTML = '$' + value
+    $('#hidden_amount')[0].value = value;
   }
 </script>
-<!-- 
-<script type="text/javascript">
-// on page load...
-    moveProgressBar();
-    // on browser resize...
-    $(window).resize(function() {
-        moveProgressBar();
-    });
 
-    // SIGNATURE PROGRESS
-    function moveProgressBar() {
-      console.log("moveProgressBar");
-        var getPercent = ($('.progress-wrap').data('progress-percent') / 100);
-        var getProgressWrapWidth = $('.progress-wrap').width();
-        var progressTotal = getPercent * getProgressWrapWidth;
-        var animationLength = 2500;
-        
-        // on page load, animate percentage bar to data percentage length
-        // .stop() used to prevent animation queueing
-        $('.progress-bar').stop().animate({
-            left: progressTotal
-        }, animationLength);
-    }
-</script>
-
- -->
-<!--         <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-            60%
-          </div>
-        </div> -->
 
       <div class="container">
       <div class="row">
@@ -73,3 +44,35 @@
         </div>
       </div>
       </div>
+
+
+
+      <script src="https://checkout.stripe.com/checkout.js"></script>
+
+<!-- <button id="customButton">Purchase</button> -->
+
+<script>
+  var handler = StripeCheckout.configure({
+    key: 'pk_test_6pRNASCoBOKtIshFeQd4XMUh',
+    image: 'http://placehold.it/100x100/008F89&text=KS',
+    token: function(token) {
+      document.getElementById('donateForm').submit();
+    }
+  });
+
+  $('.donatetodayblack').on('click', function(e) {
+    // Open Checkout with further options
+    var amount = document.getElementById('slider1').value;
+    handler.open({
+      name: '<%= @org.name %>',
+      description: '',
+      amount: amount + '00'
+    });
+    e.preventDefault();
+  });
+
+  // Close Checkout on page navigation
+  $(window).on('popstate', function() {
+    handler.close();
+  });
+</script>

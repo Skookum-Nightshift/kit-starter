@@ -20,7 +20,6 @@ Rails.application.routes.draw do
   get 'team'  => 'homepage#team'
   get 'others' => 'homepage#others'
   get 'hope' => 'homepage#hope'
-  get 'pay' => 'homepage#pay'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
