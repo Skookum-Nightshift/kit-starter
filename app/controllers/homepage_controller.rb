@@ -15,7 +15,6 @@ class HomepageController < ApplicationController
   end
 
   def share
-    binding.pry
   end
 
   def set_org
