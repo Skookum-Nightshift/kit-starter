@@ -59,7 +59,7 @@
   #############################
 
   {
-    name: 'Welcom Home Kit',
+    name: 'Housing First',
     call_to_action: 'End Chronic Homelessness',
     lower_third: 'When individuals who have experienced homelessness finally move into their home it can be very overwhelming! Welcome home kits help to ease our neighbors into housing and provide them with basic items that address everyday needs.',
     homepage_bg_image_url: 'http://placehold.it/1920x1080/CCFF99',
