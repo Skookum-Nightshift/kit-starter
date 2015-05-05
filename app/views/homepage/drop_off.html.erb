@@ -1,72 +1,63 @@
+  <div class="row">
+    <div class="jumbotron set-height">
       <div class="row">
-      <div class="jumbotron set-height">
-        <div class="row">
-          <div class="box col-md-5">
-          </div>
-          <div class="col-md-7">
-            <div class="heading-box">
-              <div class="choose">
-                directions
-              </div>
+        <div class="box col-md-5">
+        </div>
+        <div class="col-md-7">
+          <div class="heading-box">
+            <div class="choose">
+              directions
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-<hr />
-      <div class="container">
+    <hr />
+
+    <div class="container">
       <div class="row">
-        
-        
-          <div class="col-md-4">
-            <h2>WHEN</h2>
-            <p>
-              <%= @org.kits.first.when %>
-            </p>
-          </div>
-        
-        
-        
-          <div class="col-md-4">
-            <h2>WHERE</h2>
-            <p>
-              <%= @org.kits.first.where %>
-            </p>
-          </div>
+        <div class="col-md-4">
+          <h2>WHEN</h2>
+          <p>
+            <%= @org.kits.first.when %>
+          </p>
+        </div>
 
+        <div class="col-md-4">
+          <h2>WHERE</h2>
+          <p>
+            <%= @org.kits.first.where %>
+          </p>
+        </div>
 
-          <div class="col-md-4">
-            <h2>WHO</h2>
-            <p>
-              <%= @org.kits.first.who %>
-            </p>
-          </div>          
-          
-          <div class="col-md-4">
-            <h2>WHAT</h2>
-            <p>Here are the items on the list</p>
-            <div class="row">
-              <% @items = @org.kits.first.items %>
-              <% @items.each do |item| %>
-                <div class="col-sm-6">
-                  <!-- <img src="http://www.fillmurray.com/g/100/100"> -->
-                  <p class="itemname"><%= item.name %></p>
-                  <!-- <p><%= item.price %></p> -->
-                  <!-- <p><%= item.description %></p> -->
-                  <br />
-                </div>
-              <% end %>
+        <div class="col-md-4">
+          <h2>WHO</h2>
+          <p>
+            <%= @org.kits.first.who %>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>WHAT</h2>
+          <p>Here are the items on the list</p>
+          <div class="row">
+            <% @items = @org.kits.first.items %>
+            <% @items.each do |item| %>
+            <div class="col-sm-3">
+              <img class="drop_off_image" src="<%= item.image_url %>">
+              <p class="itemname"><%= item.name %></p>
+              <!-- <p><%= item.price %></p> -->
+              <!-- <p><%= item.description %></p> -->
+              <br />
             </div>
+            <% end %>
           </div>
+        </div>
 
       </div>
-      </div>
-<!-- 
-      <style type="text/css">
-        .box {
-          background: url('http://placehold.it/1300x1149/ddaa0f')
-        }
-      </style>
-      </div> -->
-
-</div>
+    </div>
+  </div>

@@ -406,6 +406,10 @@ input[type=range]:focus::-ms-fill-upper {
   width: 150px;
 }
 
+.drop_off_image{
+  width: 120px;
+}
+
 
 .donatetodayblack:hover {
   background: #3071A9
