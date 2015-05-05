@@ -67,8 +67,8 @@
     name: 'Housing First',
     call_to_action: 'End Chronic Homelessness',
     lower_third: 'When individuals who have experienced homelessness finally move into their home it can be very overwhelming! Welcome home kits help to ease our neighbors into housing and provide them with basic items that address everyday needs.',
-    homepage_bg_image_url: 'http://placehold.it/1920x1080/CCFF99',
-    description_image_url: 'http://placehold.it/1920x1080/FFCCFF',
+    homepage_bg_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1429811162/Kit-jumboimage-1920x1080_a4kx6g.png',
+    description_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430438842/07summer_600_ynb9yo.jpg',
     kits: [
       {
         name: 'Welcome Home Kit',
@@ -318,8 +318,8 @@
     name: 'Classroom Central',
     call_to_action: 'Supplying Our Students',
     lower_third: 'Classroom Central equips students living in poverty to effectively learn by collecting and distributing free school supplies',
-    homepage_bg_image_url: 'http://placehold.it/1920x1080/CCFF99',
-    description_image_url: 'http://placehold.it/1920x1080/FFCCFF',
+    homepage_bg_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430793870/Classroom%20Central/Classroom.jpg',
+    description_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430793875/Classroom%20Central/children_school.png',
     kits: [
       {
         name: 'School Supplies Backpack',
@@ -345,7 +345,7 @@
             name: '1 Package Colored Pencils',
             price: '3',
             description: '',
-            image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430363970/Classroom%20Central/No2Pencils.jpg'
+            image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430791260/Classroom%20Central/coloredpencils.jpg'
           },
           {
             name: '24 No. 2 Pencils',
