@@ -26,3 +26,7 @@ Our public Git is hosted on Github at https://github.com/Skookum-Nightshift/kit-
 You can clone this repository and build it by running:
 
 **$ git clone --recursive https://github.com/Skookum-Nightshift/kit-starter.git**
+
+
+git push heroku master
+heroku run rake db:migrate
