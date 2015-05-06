@@ -55,6 +55,18 @@ body {
   margin-bottom: 20px;
 }
 
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+
+.logopipe {
+  color: #686868;
+}
+
+.navbar-right a {
+  font-size: 1.5em;
+}
+
 .navbar-brand img {
   display: inline;
   padding-right: 10px;
@@ -92,15 +104,18 @@ body {
 	display: inline-block;
 	border: 4px solid #ffffff;
 	padding: 20px;
-	font-size: 2em;
+	font-size: 3em;
 	color: #ffffff;
 	text-transform: uppercase;
 	text-align: center;
   float: right;
+  font-weight: bold;
+
 }
 
 .donatetoday span {
-	font-weight: bold;
+	font-weight: normal;
+  letter-spacing: 4px;
 }
 
 .donatetoday a, .donatetoday a:hover {
