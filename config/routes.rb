@@ -13,13 +13,14 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'homepage#index'
-  get 'choose' => 'homepage#choose'
-  get 'drop_off' => 'homepage#drop_off'
-  get 'donate' => 'homepage#donate'
-  get 'share' => 'homepage#share'
-  get 'team'  => 'homepage#team'
-  get 'others' => 'homepage#others'
-  get 'hope' => 'homepage#hope'
+  get  'choose' => 'homepage#choose'
+  get  'drop_off' => 'homepage#drop_off'
+  get  'donate' => 'homepage#donate'
+  get  'share' => 'homepage#share'
+  post 'share' => 'homepage#share'
+  get  'team'  => 'homepage#team'
+  get  'others' => 'homepage#others'
+  get  'hope' => 'homepage#hope'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

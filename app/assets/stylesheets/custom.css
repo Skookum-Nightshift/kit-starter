@@ -148,7 +148,7 @@ body {
 ********************************/
 
 .box {
-	background: url('http://res.cloudinary.com/dxhabwozn/image/upload/v1430789378/icons/OpenBox.png') center no-repeat no-repeat;
+	/*background: url('http://res.cloudinary.com/dxhabwozn/image/upload/v1430789378/icons/OpenBox.png') center no-repeat no-repeat;*/
 	min-height: 500px;
   min-width: 500px;
 }
@@ -418,4 +418,8 @@ input[type=range]:focus::-ms-fill-upper {
 
 .donatetodayblack:hover {
   background: #dcddde;
+}
+
+.form-control, .input-group-addon {
+  border-radius: 0px;
 }
