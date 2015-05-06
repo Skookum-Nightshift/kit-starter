@@ -111,6 +111,21 @@ body {
   float: right;
   font-weight: bold;
 
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+
+}
+
+.donatetoday:hover {
+    background-color: #fff;
+    color: #000;
+/*    -webkit-transform:  scale(1.02);
+    -moz-transform:  scale(1.02);
+    -o-transform:  scale(1.02);
+    -ms-transform:  scale(1.02);
+    transform:  scale(1.02);*/
 }
 
 .donatetoday span {
@@ -213,15 +228,21 @@ body {
   text-align: center;
   width: 100%;
   margin: 20px 0;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;  
 }
 
 .donatetodayblack span {
   font-weight: bold;
 }
 
-.donatetodayblack a, .donatetodayblack a:hover {
-  color: #000;
+.donatetodayblack:hover {
+  color: #fff;
+  background: #000;
   text-decoration: none;
+  cursor: pointer;
 }
 
 
@@ -239,6 +260,8 @@ body {
   text-align: center;
   width: 100%;
   margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 input[type=range] {
@@ -422,11 +445,6 @@ input[type=range]:focus::-ms-fill-upper {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
-
-
-.donatetodayblack:hover {
-  background: #dcddde;
 }
 
 .form-control, .input-group-addon {
