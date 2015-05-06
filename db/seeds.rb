@@ -21,9 +21,9 @@
         name: 'Bedroom Kit',
         description: 'Often times Beds for Kids will deliver beds to a family who will eagerly receive them, but will still be lacking the linens and pillows needed to properly outfit the bed.',
         total: '300',
-        who: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
-        when: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
-        where: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
+        who: 'Need help? Contact Rich Levette at (980) 555-1192',
+        when: 'Drop off is Monday - Friday 8am - 5pm',
+        where: 'Drop off your kits to the Beds For Kids Warehouse at 2519 S. Tryon St. Charlotte, NC 28203',
         items: [
           {
             name: '1 Twin Flat sheet',
@@ -74,9 +74,9 @@
         name: 'Welcome Home Kit',
         description: 'When individuals who have experienced homelessness finally move into their home it can be very overwhelming! Welcome home kits help to ease our neighbors into housing and provide them with basic items that address everyday needs.',
         total: '48',
-        who: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
-        what: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
-        where: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
+        who: 'Need help? Contact Casey Hawthorne Levette at (704) 555-4137',
+        when: 'Drop off is Monday - Friday 8am - 5pm',
+        where: 'Drop off at the Housing First office at 935 N. College Ave Charlotte, NC 28203',
         items: [
           {
             name: '2 Pillows',
@@ -325,9 +325,9 @@
         name: 'School Supplies Backpack',
         description: 'Classroom Central outfits the highest poverty schools in the region with school supply kits and backpacks for their entire student body.',
         total: '400',
-        who: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
-        when: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
-        where: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
+        who: 'Need help? Contact Sarah Parsons Levette at (704) 555-1740',
+        when: 'Drop off is Monday - Friday 9:00am - 4:30pm',
+        where: 'Drop off your kits at 2116 Wilkinson Blvd, Charlotte, NC 28208',
         items: [
           {
             name: '1 Backback',
@@ -411,7 +411,7 @@
             name: '1 Calculator',
             price: '10',
             description: '',
-            image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430363968/Classroom%20Central/Calculator.jpg0'
+            image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430363968/Classroom%20Central/Calculator.jpg'
           }
         ]
       }
@@ -432,9 +432,9 @@
         name: 'Holiday Meal Groceries',
         description: 'Our mission is to provide a nutritious holiday groceries meals to people within our community facing economic hardships.',
         total: '40',
-        who: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
-        when: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
-        where: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, deserunt, beatae? Facere ea aut, voluptas reiciendis facilis laborum. Doloribus ullam minima aspernatur. Voluptas quo at, fuga molestiae ducimus consequatur, minus.',
+        who: 'Need help? Contact Steven Morrel Levette at (704) 555-4333',
+        when: 'Drop off is Monday - Friday 8:00am - 8:00pm',
+        where: 'Drop off your kits at Loaves & Fishes at 648B Griffith Rd Charlotte, NC',
         items: [
           {
             name: '1 15-pound turkey',
