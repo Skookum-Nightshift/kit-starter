@@ -318,7 +318,7 @@
     name: 'Classroom Central',
     call_to_action: 'Supplying Our Students',
     lower_third: 'Classroom Central equips students living in poverty to effectively learn by collecting and distributing free school supplies',
-    homepage_bg_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430793870/Classroom%20Central/Classroom.jpg',
+    homepage_bg_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430871864/cc-supplies_dopd0v.jpg',
     description_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430793875/Classroom%20Central/children_school.png',
     kits: [
       {
