@@ -18,40 +18,39 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h2>WHEN</h2>
-          <p>
+          <h2 class="center">WHEN</h2>
+          <p class="center">
             <%= @org.kits.first.when %>
           </p>
         </div>
 
         <div class="col-md-4">
-          <h2>WHERE</h2>
-          <p>
+          <h2 class="center">WHERE</h2>
+          <p class="center">
             <%= @org.kits.first.where %>
           </p>
         </div>
 
         <div class="col-md-4">
-          <h2>WHO</h2>
-          <p>
+          <h2 class="center">WHO</h2>
+          <p class="center">
             <%= @org.kits.first.who %>
           </p>
         </div>
       </div>
     </div>
-    <div class="container">
+
+    <div class="container" style="width: 100%;">
       <div class="row">
         <div class="col-md-12">
-          <h2>WHAT</h2>
-          <p>Here are the items on the list</p>
+          <h2 class="center">WHAT</h2>
+          <p class="center">Here are the items on the list</p>
           <div class="row">
             <% @items = @org.kits.first.items %>
             <% @items.each do |item| %>
-            <div class="col-sm-3">
+            <div class="col-md-3 col-lg-2">
               <img class="drop_off_image" src="<%= item.image_url %>">
               <p class="itemname"><%= item.name %></p>
-              <!-- <p><%= item.price %></p> -->
-              <!-- <p><%= item.description %></p> -->
               <br />
             </div>
             <% end %>
