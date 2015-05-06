@@ -422,7 +422,7 @@
   ############################# 
     
   {
-    name: 'Loaves & Fishes',
+    name: 'Loaves &amp; Fishes',
     call_to_action: 'Give Nutritious Holiday Groceries',
     lower_third: 'Access to nutritious food is a fundamental human right.',
     homepage_bg_image_url: 'http://placehold.it/1920x1080/CCFF99',

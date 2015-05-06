@@ -21,8 +21,10 @@
           <li class="<%= menu_active('team') %>"><a href="team">Team</a></li>
           <li class="<%= menu_active('hope') %>"><a href="hope">Our Hope</a></li>
           <li class="<%= menu_active('others') %>"><a href="others">Others</a></li>
-          <li class="<%= menu_active('') %> social-badge"><a href="#"><img src="http://res.cloudinary.com/dxhabwozn/image/upload/v1429811212/Facebookbadge-50px_u3mjpd.png" alt="facebook"></a></li>
-          <li class="<%= menu_active('') %> social-badge"><a href="#"><img src="http://res.cloudinary.com/dxhabwozn/image/upload/v1429811212/TwitterBadge-50px_mmxhdo.png" alt="twitter"></a></li>
+          <li class="<%= menu_active('') %> social-badge"><a href="https://www.facebook.com/sharer/sharer.php?u=Have%20you%20heard%20about%20<%= CGI.escapeHTML @org.name %>%20and%20the%20<%= CGI.escapeHTML @org.kits.first.name %>%20Donate%20Today%20%23kitstart" onclick="window.open(this.href, 'mywin',
+            'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><img src="http://res.cloudinary.com/dxhabwozn/image/upload/v1429811212/Facebookbadge-50px_u3mjpd.png" alt="facebook"></a></li>
+          <li class="<%= menu_active('') %> social-badge"><a href="https://twitter.com/home?status=Have%20you%20heard%20about%20<%= CGI.escapeHTML @org.name %>%20and%20the%20<%= CGI.escapeHTML @org.kits.first.name %>?%20Donate%20Today!%20%23kitstart"onclick="window.open(this.href, 'mywin',
+            'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><img src="http://res.cloudinary.com/dxhabwozn/image/upload/v1429811212/TwitterBadge-50px_mmxhdo.png" alt="twitter"></a></li>
         </li>
       </ul>
     </div><!-- /.navbar-collapse --> 
