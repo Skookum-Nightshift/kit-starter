@@ -48,6 +48,12 @@ body {
     text-align: center; 
 }
 
+hr {
+  height: 2px;
+  background-color: #939598;
+  margin-bottom: 100px;
+}
+
 /** NAV 
 ********************************/
 
@@ -383,6 +389,9 @@ input[type=range]:focus::-ms-fill-upper {
 	text-align: center;
 }
 
+.socialshare img {
+  margin: 0 30px;
+}
 
 
 /** OUR HOPE
@@ -433,6 +442,7 @@ input[type=range]:focus::-ms-fill-upper {
 	background-color: #101010;
 	color: #fff;
 	padding: 20px;
+  margin-top: 100px;
 }
 
 .donate_image{
