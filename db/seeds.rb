@@ -14,8 +14,8 @@
     name: 'Beds For Kids',
     call_to_action: 'Give a good night\'s sleep',
     lower_third: 'Thousands of children sleep without a bed or on the floor every night in Charlotte. Donate today to help make a difference.',
-    homepage_bg_image_url: 'http://placehold.it/1920x1080/CCFF99',
-    description_image_url: 'http://placehold.it/1920x1080/FFCCFF',
+    homepage_bg_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430880299/boys-bedroom_fivb2n.jpg',
+    description_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430794675/Bed%20For%20Kids/Bedroom-twinbed.jpg',
     kits: [
       {
         name: 'Bedroom Kit',
@@ -422,11 +422,11 @@
   ############################# 
     
   {
-    name: 'Loaves &amp; Fishes',
+    name: 'Loaves and Fishes',
     call_to_action: 'Give Nutritious Holiday Groceries',
     lower_third: 'Access to nutritious food is a fundamental human right.',
-    homepage_bg_image_url: 'http://placehold.it/1920x1080/CCFF99',
-    description_image_url: 'http://placehold.it/1920x1080/FFCCFF',
+    homepage_bg_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430964896/thanks_imgiao.jpg',
+    description_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430964894/3070215460_9a13f8649e_o_wuregf.jpg',
     kits: [
       {
         name: 'Holiday Meal Groceries',
@@ -434,7 +434,7 @@
         total: '40',
         who: 'Need help? Contact Steven Morrel Levette at (704) 555-4333',
         when: 'Drop off is Monday - Friday 8:00am - 8:00pm',
-        where: 'Drop off your kits at Loaves & Fishes at 648B Griffith Rd Charlotte, NC',
+        where: 'Drop off your kits at Loaves and Fishes at 648B Griffith Rd Charlotte, NC',
         items: [
           {
             name: '1 15-pound turkey',
