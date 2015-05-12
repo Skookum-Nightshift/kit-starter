@@ -519,3 +519,10 @@ input[type=range]:focus::-ms-fill-upper {
 
 }*/
 
+.bigger {
+  font-size: 50px;
+}
+
+.plus_one {
+  font-size: 20px;
+}

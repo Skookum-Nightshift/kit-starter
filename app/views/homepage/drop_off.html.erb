@@ -3,6 +3,7 @@
       <div class="container">
         <div class="row">
           <div class="box col-md-6">
+            <img src="http://res.cloudinary.com/dxhabwozn/image/upload/v1431396645/Handtruck-boxes_kw0pdk.png">
           </div>
           <div class="valign col-md-6">
             <div class="heading-box">
@@ -19,34 +20,35 @@
 
     <div class="container">
       <div class="row">
+
         <div class="col-md-4">
-          <h2 class="center">WHEN</h2>
-          <p class="center">
+          <h2 class="center bigger">WHO</h2>
+          <p class="center plus_one">
+            <%= @org.kits.first.who %>
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <h2 class="center bigger">WHEN</h2>
+          <p class="center plus_one">
             <%= @org.kits.first.when %>
           </p>
         </div>
 
         <div class="col-md-4">
-          <h2 class="center">WHERE</h2>
-          <p class="center">
+          <h2 class="center bigger">WHERE</h2>
+          <p class="center plus_one">
             <%= @org.kits.first.where %>
           </p>
         </div>
 
-        <div class="col-md-4">
-          <h2 class="center">WHO</h2>
-          <p class="center">
-            <%= @org.kits.first.who %>
-          </p>
-        </div>
       </div>
     </div>
 
     <div class="container" style="width: 100%;">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="center">WHAT</h2>
-          <p class="center">Here are the items on the list</p>
+          <h2 class="center bigger">WHAT</h2>
           <div class="row">
             <% @items = @org.kits.first.items %>
             <% @items.each do |item| %>
