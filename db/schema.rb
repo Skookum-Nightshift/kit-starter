@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150427084059) do
+ActiveRecord::Schema.define(version: 20150512015401) do
 
   create_table "active_admin_comments", force: true do |t|
     t.string   "namespace"
@@ -80,6 +80,7 @@ ActiveRecord::Schema.define(version: 20150427084059) do
     t.string   "lower_third"
     t.string   "homepage_bg_image_url"
     t.string   "description_image_url"
+    t.string   "logo_url"
   end
 
 end

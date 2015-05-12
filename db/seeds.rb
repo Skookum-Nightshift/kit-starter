@@ -530,7 +530,7 @@
   }
 
 ].each do |org|
-  tmp_org = Organization.create!(name: org[:name], call_to_action: org[:call_to_action], lower_third: org[:lower_third], homepage_bg_image_url: org[:homepage_bg_image_url], description_image_url: org[:description_image_url])
+  tmp_org = Organization.create!(name: org[:name], call_to_action: org[:call_to_action], lower_third: org[:lower_third], homepage_bg_image_url: org[:homepage_bg_image_url], description_image_url: org[:description_image_url], logo_url: org[:logo_url])
   org[:kits].each do |kit|
     tmp_kit = Kit.create!(name: kit[:name], description: kit[:description], total: kit[:total], organization_id: tmp_org.id, who: kit[:who], when: kit[:when], where: kit[:where])
     kit[:items].each do |item|
