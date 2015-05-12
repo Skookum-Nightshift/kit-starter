@@ -197,13 +197,24 @@ hr {
   width: 100%;
 }
 
+.heading-box-donate {
+  display: inline-block;
+  padding: 20px;
+  font-size: 34px;
+  font-weight: 800;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
 .choose {
 	font-weight: 900;
-	font-size: 2em;
+	font-size: 3em;
 }
 
 .your_path {
-	font-size: 2em;
+	font-size: 3em;
 }
 
 .path_desc {
@@ -464,3 +475,24 @@ input[type=range]:focus::-ms-fill-upper {
 .center{
   text-align: center;
 }
+
+.valign {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+.valign_donate {
+  position: relative;
+  top: 50%;
+  transform: translateY(21%);
+}
+
+.items{
+  opacity: .33  ;
+}
+
+/*.items-paid {
+  opacity: 1;
+
+}*/
