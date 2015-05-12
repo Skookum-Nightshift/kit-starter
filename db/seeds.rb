@@ -12,6 +12,7 @@
 
   {
     name: 'Beds For Kids',
+    logo_url: '',
     call_to_action: 'Give a good night\'s sleep',
     lower_third: 'Thousands of children sleep without a bed or on the floor every night in Charlotte. Donate today to help make a difference.',
     homepage_bg_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430880299/boys-bedroom_fivb2n.jpg',
@@ -65,6 +66,7 @@
 
   {
     name: 'Housing First',
+    logo_url: '',
     call_to_action: 'End Chronic Homelessness',
     lower_third: 'When individuals who have experienced homelessness finally move into their home it can be very overwhelming! Welcome home kits help to ease our neighbors into housing and provide them with basic items that address everyday needs.',
     homepage_bg_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1429811162/Kit-jumboimage-1920x1080_a4kx6g.png',
@@ -316,6 +318,7 @@
 
   {
     name: 'Classroom Central',
+    logo_url: '',
     call_to_action: 'Supplying Our Students',
     lower_third: 'Classroom Central equips students living in poverty to effectively learn by collecting and distributing free school supplies',
     homepage_bg_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430871864/cc-supplies_dopd0v.jpg',
@@ -423,6 +426,7 @@
     
   {
     name: 'Loaves and Fishes',
+    logo_url: '',
     call_to_action: 'Give Nutritious Holiday Groceries',
     lower_third: 'Access to nutritious food is a fundamental human right.',
     homepage_bg_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430964896/thanks_imgiao.jpg',
