@@ -234,7 +234,7 @@
             name: '1 Palmolive Dish Washing Liquid, 3 Oz.',
             price: '3',
             description: '',
-            image_url: 'http://fillmurray.com/250/250'
+            image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1429810853/PalmoliveDishWashingLiquid_adde6t.png'
           },
           {
             name: '1 21-Oz. Ajax Powder',
@@ -429,7 +429,7 @@
     logo_url: '',
     call_to_action: 'Give Nutritious Holiday Groceries',
     lower_third: 'Access to nutritious food is a fundamental human right.',
-    homepage_bg_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430964896/thanks_imgiao.jpg',
+    homepage_bg_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430964921/thanks_jkxy7z.jpg',
     description_image_url: 'http://res.cloudinary.com/dxhabwozn/image/upload/v1430964894/3070215460_9a13f8649e_o_wuregf.jpg',
     kits: [
       {
