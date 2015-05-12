@@ -431,7 +431,19 @@ input[type=range]:focus::-ms-fill-upper {
   color: #ffffff;
 }
 
+.ourteam {
+  background-image: url('http://res.cloudinary.com/dxhabwozn/image/upload/v1431399465/Group-KitStart1_wrvngs.png');
+  background-position-y: 35%;
+  width: 100%;
+  background-size: cover; 
+  color: #ffffff;
+  min-height: 750px;
+  width: 100%;
+}
 
+.ourteamtitle{
+  font-size: 2em;
+}
 
 /** Others
 ********************************/
@@ -496,3 +508,4 @@ input[type=range]:focus::-ms-fill-upper {
   opacity: 1;
 
 }*/
+
