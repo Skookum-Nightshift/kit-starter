@@ -11,7 +11,7 @@
           <div class="row">
             <% group.each do |org| %>
             <div class="col-sm-6">
-              <!-- <img class="img-square" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> -->
+              <img class="img-square" src="<%= org.logo_url %>" alt="Org Logo" width="140" height="140">
               <h2><a href="/?org=<%= org.name %>"><%= org.name %></a></h2>
               <p><%= org.lower_third %></p>
             </div><!-- /.col-sm-6 -->
