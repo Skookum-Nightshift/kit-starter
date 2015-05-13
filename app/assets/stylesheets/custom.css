@@ -283,7 +283,7 @@ hr {
 }
 
 .itemname {
-	min-height: 25px;
+	min-height: 100px;
   text-align: center;
   width: 100%;
   margin-bottom: 40px;
